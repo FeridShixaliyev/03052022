@@ -1,0 +1,218 @@
+.title{
+    height: 103px;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 40px;
+    h1{
+        color: #363636;
+          font-size: 24px;
+          font-weight: 700;
+          margin: 0;
+    }
+    .mini-title{
+        margin-top: 10px;
+        border-bottom: 0.05px solid #8f8f8f;
+        a{
+            text-decoration: none;
+            color: #8f8f8f;
+        }
+    }
+}
+#products{
+    .container{
+        .row{
+            .col-lg-3{
+                height: 1700px;
+                text-align: center;
+            }
+            .col-lg-9{
+                height: 1700px;
+        
+                .filtered{
+                    display: flex;
+                    .ch-to-ex{
+                        margin: 12px;
+                        height: 45.5px;
+                        border-radius: 4px;
+                        width: 211px;
+                        background-color: #f6f6f6;
+                        padding: 13px;
+        
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+                    .ex-to-ch{
+                        margin: 12px;
+                        height: 45.5px;
+                        width: 211px;
+                        border-radius: 4px;
+                        background-color: #f6f6f6;
+                        padding: 13px;
+        
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+                    .new-prod{
+                        border-radius: 4px;
+                        margin: 12px;
+                        height: 45.5px;
+                        width: 146px;
+                        background-color: #d0d4d8;
+                        padding: 13px;
+        
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+                    .view{
+                        display: flex;
+                        padding: 18px;
+                        .icon{
+                            margin: 5px;
+                            width: 32px;
+                            height: 18px;
+                        }
+                    }
+                }
+                .col-md-4{
+                    width: 268px;
+                    height: 401px;
+                    border: 0.01px solid #8f8f8f;
+                    padding: 15px;
+        
+        
+                    .info{
+                        height: 32px;
+                        h3{
+                            font-size: 12px;
+                            color: #434343;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+                    }
+                    .price{
+                        display: flex;
+                        justify-content: space-between;
+                        p{
+                            font-weight: 900;
+                            color: red;
+                        }
+                        .manat{
+                            height: 15px;
+                            width: 15px;
+                        }
+                        .negd{
+                            width: 129px;
+                            height: 36px;
+                            background-color: yellow;
+                            text-align: center;
+                            border-radius: 5px;
+                            p{
+                                margin: 0;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    .order{
+                        display: flex;
+                        // justify-content: space-between;
+                        .add{
+                            width: 119px;
+                            height: 36px;
+                            background-color: #0b2875;
+                            border-radius: 5px;
+                            display: flex;
+                            margin: 9px;
+                            justify-content: center;
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                font-size: 12px;
+                                margin: 4px;
+                                .shop-logo{
+                                    height: 15px;
+                                    margin: 6px;
+                                }
+                            }
+                        }
+                        .credit{
+                            width: 119px;
+                            height: 36px;
+                            background-color: #0b2875;
+                            border-radius: 5px;
+                            display: flex;
+                            justify-content: center;
+                            margin: 9px;
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                font-size: 12px;
+                                margin: 4px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .page-number{
+                height: 56px;
+                display: flex;
+                justify-content: space-around;
+                position: relative;
+                .pagination{
+                    position: absolute;
+                    position: absolute;
+                    padding-left: 242px;
+                    li{
+                        margin-right: 10px;
+                        a{
+                            color: #434343;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#advantages{
+    .container{
+        .row{
+            .first{
+                border: none !important;
+            }
+            .col-md-3{
+                height: 150px;
+                padding: 20px;
+                text-align: center;
+                border-left: 0.1px solid #c2c2c2;
+                .img{
+                    width: 60px;
+                    border-radius: 17%;
+                    height: 60px;
+                    font-size: 8px;
+                    border: 2px solid #c2c2c2;
+                    display: flex;
+                    color: #c2c2c2;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 92px;
+                    margin-bottom: 20px;
+                    .avg-image{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                h5{
+                    color: #666;
+                    font-size: 15px !important;
+                    font-weight: 500 !important;
+                }
+            }
+        }
+    }
+}

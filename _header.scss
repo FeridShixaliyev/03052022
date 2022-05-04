@@ -1,0 +1,22 @@
+.bg-color{
+    background-color: #302e2b!important;
+    margin: 0 auto;
+    padding: 0;
+
+    .novbar-li{
+        .novbar-li-a{
+            color: #f5e10e;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: Montserrat, sans-serif;
+            border-left: 1px solid #6e6b67;
+            transition: 0.4ms;
+            &:hover{
+                background-color:#f5e10e;
+                color: #302e2b;
+            }
+        }
+    }
+    
+}
+

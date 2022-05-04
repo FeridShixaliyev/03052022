@@ -1,0 +1,54 @@
+.footer-area{
+    background-color: #5d5d5d;
+    height: 431px;
+    margin-top: 20px;
+    padding-top: 23px;
+
+    .container{
+        .row{
+            .col-md-3{
+                height: 361px;
+                h2{
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 700;
+                    letter-spacing: .5px;
+                    margin-bottom: 15px;
+                }
+                .social-net{
+                    .social-icon{
+                        width: 40px;
+                        height: 40px;
+                        padding: 7px;
+                        border: 0.4px solid #d9d7d7;
+                        border-radius: 5px;
+                        background-color: #d9d7d7;
+                        margin: 3px;
+                    }
+                }
+                .magaza-item{
+                    ul{
+                        list-style-type: none;
+                        padding: 0;
+                        .magaza-li{
+                            a{
+                                text-decoration: none;
+                                color: #d9d7d7;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+                .num{
+                    width: 150px;
+                    h1{
+                        color:#d9d7d7 ;
+                        img{
+                            width: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
